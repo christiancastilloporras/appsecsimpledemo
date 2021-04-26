@@ -4,6 +4,9 @@ upstream juiceshop_host {
 upstream bwaap_host {
   server bwaap-vuln:80;
 }
+upstream dvwa-docker {
+  server dvwa-docker:80;
+}
 
 server {
   server_name juiceshop.cloudguard.test;
